@@ -1,0 +1,54 @@
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f0f0f0;
+}
+
+.dropdown, .sentimentslider, .subjectivityslider {
+    flex: 1 1 30%; 
+    margin-right: 10px;
+    display:flex;
+    justify-content: center;
+}
+
+.drop, .sentlide, .subslide {
+    width: 100px
+}
+
+.row3 {
+    padding: 10px;
+}
+
+.rawtweets {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rawtweetheader {
+    flex: 1 1 100%;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 5px;
+}
+
+.rawtweets {
+    flex: 1 1 100%;
+    padding: 10px; 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rawtweet {
+    border: 1px solid black; 
+    padding: 5px; 
+    width: 100%;
+}
+
+div.plotly .modebar {
+    top: auto;
+    right: 20px; /* Adjust this value to fit your layout */
+    left: auto;
+    bottom: auto;
+    z-index: 100;
+}
+
